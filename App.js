@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
+import Footer from './components/CarItem/Footer/Footer';
 import CarsList from './components/CarsList';
 import Header from './components/Header';
 
@@ -9,6 +10,7 @@ export default function App() {
     <View style={styles.container}>
       <Header />
       <CarsList />
+      <Footer/>
       <StatusBar style="auto" />
     </View>
   );

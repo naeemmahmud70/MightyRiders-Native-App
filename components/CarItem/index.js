@@ -36,7 +36,7 @@ const CarItem = (props) => {
         /> */}
         <Button style={styles.btn}
           type="primary"
-          title="Learn More"
+          title="Order Now"
           color="#841584"
           accessibilityLabel="Learn more about this purple button"
         />

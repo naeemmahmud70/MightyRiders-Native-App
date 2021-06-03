@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.brand}>MightyRides</Text>
-      <Image style={styles.menu} source={require('../../assets/images/menu.png')} />
+      <Image  source={require('../../assets/images/SolarRoof.jpeg')} />
     </View>
   );
 };
