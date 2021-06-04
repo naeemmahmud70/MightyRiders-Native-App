@@ -4,11 +4,19 @@ const styles = StyleSheet.create({
   carContainer: {
     width: '100%',
     height: Dimensions.get('window').height,
+
   },
+  link: {
+    ':hover': {
+      color: '#5c5e62'
+    }
+  },
+
   titles: {
     marginTop: '30%',
     width: '100%',
     alignItems: 'center',
+    
   },
   title: {
     fontSize: 40,

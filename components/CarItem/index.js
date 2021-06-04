@@ -13,7 +13,7 @@ const CarItem = (props) => {
         source={image}
         style={styles.image}
       />
-
+      <View style={styles.link}>
       <View style={styles.titles}>
         <Text style={styles.title}>{name}</Text>
         <Text style={styles.subtitle}>
@@ -24,17 +24,12 @@ const CarItem = (props) => {
           </Text>
         </Text>
       </View>
+      </View>
 
       <View style={styles.buttonsContainer}>
-        {/* <StyledButton
-
-          type="primary"
-          content={"Oreder Now"}
-          onPress={() => {
-            console.warn("Custom Order was pressed");
-          }}
-        /> */}
+       
         <Button style={styles.btn}
+        
           type="primary"
           title="Order Now"
           color="#841584"

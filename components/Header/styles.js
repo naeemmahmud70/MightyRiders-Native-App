@@ -22,7 +22,8 @@ const styles = StyleSheet.create({
   },
   brand:{
     fontWeight: 500,
-    fontSize: 40
+    fontSize: 40,
+    tintColor: `#deb887`
   }
 });
 

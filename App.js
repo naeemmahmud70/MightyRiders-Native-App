@@ -1,26 +1,20 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
-import Footer from './components/CarItem/Footer/Footer';
-import CarsList from './components/CarsList';
-import Header from './components/Header';
+import { View } from 'react-native';
+// import { NativeRouter, Route, Switch } from "react-router-native";
+import Home from './components/Home/Home';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Header />
-      <CarsList />
-      <Footer/>
-      <StatusBar style="auto" />
+    <View>
+      <Home></Home>
     </View>
+    // <NativeRouter>
+    //   <View>
+    //     <Switch>
+    //       <Route exact path="/" component={Home} />
+    //     </Switch>
+    //   </View>
+    // </NativeRouter>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
