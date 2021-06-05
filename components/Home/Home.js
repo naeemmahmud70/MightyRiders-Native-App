@@ -13,7 +13,6 @@ const Home = () => {
             <Header></Header>
             <CarsList></CarsList>
             <Footer></Footer>
-            <Order></Order>
             <StatusBar style="auto" />
         </View>
     );
